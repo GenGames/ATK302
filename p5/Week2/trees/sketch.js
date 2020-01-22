@@ -10,6 +10,7 @@ function setup() {
   rect(0,160,720,240);
   cloud();
   cloud();
+  cloud();
   tree();
   tree();
 }
@@ -54,8 +55,11 @@ function tree(){
 
 function cloud(){
   var cloudSize = Math.floor(Math.random());
+  var cloudSize2 = Math.floor(Math.random());
   var cloudLocationX = Math.floor(Math.random() * 600) + 50;
-  var cloudLocationY = Math.floor(Math.random() * 155) + 5;
+  var cloudLocationY = Math.floor(Math.random() * 115) + 5;
   fill(255);
-  ellipse(Math.random()*720, Math.random()*135, Math.random()*100 +50, Math.random()*100 +50);
+  ellipse(cloudLocationX, cloudLocationY, cloudSize*10 +80, cloudSize*10 +80);
+  ellipse(cloudLocationX+55, cloudLocationY+20, cloudSize*60 +50, cloudSize*40 +50);
+  ellipse(cloudLocationX-35, cloudLocationY+10, cloudSize*70 +50, cloudSize*90 +50);
 }
