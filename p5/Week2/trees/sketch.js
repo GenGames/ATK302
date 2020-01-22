@@ -51,6 +51,7 @@ function tree(){
   arc(treeLocationX, treeLocationY+35, treeSize*10, treeSize*13, PI, TWO_PI);
   arc(treeLocationX + 80, treeLocationY+25, treeSize*8, treeSize*6, PI, TWO_PI);
   arc(treeLocationX +100, treeLocationY+45, treeSize*12, treeSize*13, PI, TWO_PI);
+  arc(treeLocationX +40, treeLocationY+90, treeSize*4, treeSize*6, PI, TWO_PI);
 }
 
 function cloud(){
