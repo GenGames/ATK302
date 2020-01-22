@@ -8,9 +8,10 @@ function setup() {
   arc(479, 160, 280, 280, PI, TWO_PI);
   fill("#009900");
   rect(0,160,720,240);
-  tree();
-  tree();
   cloud();
+  cloud();
+  tree();
+  tree();
 }
 
 
@@ -52,11 +53,9 @@ function tree(){
 }
 
 function cloud(){
-  var cloudSize = Math.floor(Math.random() *10 ) + 10;
+  var cloudSize = Math.floor(Math.random());
   var cloudLocationX = Math.floor(Math.random() * 600) + 50;
   var cloudLocationY = Math.floor(Math.random() * 155) + 5;
   fill(255);
-  ellipse(50, 40, 8*cloudSize*Math.floor(Math.random() * 1), 8*cloudSize*Math.floor(Math.random() * 1));
-  ellipse(90, 40, 8*cloudSize*Math.floor(Math.random() * 1), 8*cloudSize*Math.floor(Math.random() * 1));
-  ellipse(130, 40, 8*cloudSize*Math.floor(Math.random() * 1), 8*cloudSize*Math.floor(Math.random() * 1));
+  ellipse(Math.random()*720, Math.random()*135, Math.random()*100 +50, Math.random()*100 +50);
 }
