@@ -29,7 +29,7 @@ function tree(){
 
   fill('green');
 
-  var quantityLeaves = Math.floor(Math.random()*5) +2);
+  var quantityLeaves = Math.floor(Math.random()*5) +2;
 
   for (var i = 0; i < quantityLeaves; i++) {
     leaves(treeLocationX + Math.floor(Math.random()*10)+10,treeLocationY + Math.floor(Math.random()*10)+10, treeSize + Math.floor(Math.random()*10)+10)
