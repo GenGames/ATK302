@@ -8,12 +8,12 @@ function setup() {
   arc(479, 160, 280, 280, PI, TWO_PI);
   fill("#009900");
   rect(0,160,720,240);
-  cloud();
-  cloud();
-  cloud();
-  tree();
-  tree();
-  branch();
+  for (var i = 0; i < Math.floor(Math.random()*10) +2; i++) {
+    cloud();
+  }
+  for (var i = 0; i < Math.floor(Math.random()*4) +2; i++) {
+    tree();
+  }
 }
 
 function draw() {
@@ -32,12 +32,8 @@ function tree(){
   var quantityLeaves = Math.floor(Math.random()*5) +2;
 
   for (var i = 0; i < quantityLeaves; i++) {
-    leaves(treeLocationX + Math.floor(Math.random()*10)+10,treeLocationY + Math.floor(Math.random()*10)+10, treeSize + Math.floor(Math.random()*10)+10)
+    leaves(treeLocationX + Math.floor(Math.random()*100)+10,treeLocationY + Math.floor(Math.random()*100)+10, treeSize + Math.floor(Math.random()*300)+10)
   }
-
-  // leaves(treeLocationX, treeLocationY+35, treeSize*10);
-  // leaves(treeLocationX + 80, treeLocationY+25, treeSize*8);
-  // leaves(treeLocationX +100, treeLocationY+45, treeSize*12);
 }
 
 function leaves(xLocation,yLocation,size){
