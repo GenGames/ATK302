@@ -13,30 +13,10 @@ function setup() {
   cloud();
   tree();
   tree();
+  branch();
 }
 
-
 function draw() {
-  // put drawing code here
-
-
-
-
-  // fill(204);
-  // triangle(18, 18, 18, 360, 81, 360);
-  //
-  // fill(102);
-  // rect(81, 81, 63, 63);
-  //
-  // fill(204);
-  // quad(189, 18, 216, 18, 216, 360, 144, 360);
-  //
-  // fill(255);
-  // ellipse(252, 144, 72, 72);
-  //
-  // fill(204);
-  // triangle(288, 18, 351, 360, 288, 360);
-  //
 
 }
 
@@ -48,10 +28,20 @@ function tree(){
   rect(treeLocationX, treeLocationY, treeSize*5, treeSize*25);
 
   fill('green');
-  arc(treeLocationX, treeLocationY+35, treeSize*10, treeSize*13, PI, TWO_PI);
-  arc(treeLocationX + 80, treeLocationY+25, treeSize*8, treeSize*6, PI, TWO_PI);
-  arc(treeLocationX +100, treeLocationY+45, treeSize*12, treeSize*13, PI, TWO_PI);
-  arc(treeLocationX +40, treeLocationY+90, treeSize*4, treeSize*6, PI, TWO_PI);
+
+  var quantityLeaves = Math.floor(Math.random()*5) +2);
+
+  for (var i = 0; i < quantityLeaves; i++) {
+    leaves(treeLocationX + Math.floor(Math.random()*10)+10,treeLocationY + Math.floor(Math.random()*10)+10, treeSize + Math.floor(Math.random()*10)+10)
+  }
+
+  // leaves(treeLocationX, treeLocationY+35, treeSize*10);
+  // leaves(treeLocationX + 80, treeLocationY+25, treeSize*8);
+  // leaves(treeLocationX +100, treeLocationY+45, treeSize*12);
+}
+
+function leaves(xLocation,yLocation,size){
+  arc(xLocation, yLocation, size, size*1.3, PI, TWO_PI);
 }
 
 function cloud(){
