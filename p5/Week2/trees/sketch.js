@@ -6,6 +6,7 @@ function setup() {
 
   fill("#ff9900");
   arc(479, 160, 280, 280, PI, TWO_PI);
+
   fill("#009900");
   rect(0,160,720,240);
   for (var i = 0; i < Math.floor(Math.random()*20); i++) {
