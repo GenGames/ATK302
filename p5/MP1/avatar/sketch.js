@@ -1,4 +1,3 @@
-let img;
 const greyColoring = "#D7CAD4";
 const backgroundWhiteColoring = "#D6CAD0";
 const backgroundGreyColoring = "rgb(182,172,180)"
@@ -6,15 +5,10 @@ const whiteColoring = "#F6F6F6";
 const bag1Coloring = "#77C0B7";
 const bag2Coloring = "#DFBF45";
 
-function preload() {
-  img = loadImage('assets/Alpaca.jpg');
-}
-
 function setup() {
   // Sets the screen to be 720 pixels wide and 400 pixels high
   createCanvas(200, 200);
   background("black");
-  // image(img,-200,-280);
   noStroke();
 
 
