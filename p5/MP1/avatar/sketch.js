@@ -204,7 +204,3 @@ function Alpaca(xposition_prefabGlobal,yposition_prefabGlobal){
   var frontForwardLeg = leg(xposition_prefabGlobal,yposition_prefabGlobal-4,true);
   var backForwardLeg = leg(xposition_prefabGlobal+45,yposition_prefabGlobal-4,true);
 }
-
-function coatFluff(xposition,yposition){
-
-}
