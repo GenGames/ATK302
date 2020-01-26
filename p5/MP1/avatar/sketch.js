@@ -16,10 +16,11 @@ function setup() {
   fill("green");
   var ground = rect(0,130,400,70);
 
-  Alpaca(0,0,1,"white");
+  var aplaca1= Alpaca(0,0,1,"white");
 }
 
 function draw() {
+
   if (mouseIsPressed) {
     // console.log(mouseX + ", " + mouseY);
     Alpaca(95,20,2,"brown");
