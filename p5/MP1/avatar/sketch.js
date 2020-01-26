@@ -1,23 +1,19 @@
+var drawToggle = false;
+
 function setup() {
   // Sets the screen to be 720 pixels wide and 400 pixels high
   createCanvas(720, 400);
   background("#4cc8ff");
   noStroke();
 
-  fill("#ff9900");
-  arc(479, 160, 280, 280, PI, TWO_PI);
-  fill("#009900");
-  rect(0,160,720,240);
-  for (var i = 0; i < Math.floor(Math.random()*20); i++) {
-    cloud();
-  }
-  for (var i = 0; i < Math.floor(Math.random()*4) +2; i++) {
-    tree();
-  }
 }
 
 function draw() {
 
+}
+
+function mousePressed(){
+  console.log(mouseX + ", " + mouseY);
 }
 
 function tree(){
