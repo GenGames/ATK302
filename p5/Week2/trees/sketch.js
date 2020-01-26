@@ -6,13 +6,14 @@ function setup() {
 
   fill("#ff9900");
   arc(479, 160, 280, 280, PI, TWO_PI);
+
   fill("#009900");
   rect(0,160,720,240);
   for (var i = 0; i < Math.floor(Math.random()*20); i++) {
     cloud();
   }
   for (var i = 0; i < Math.floor(Math.random()*4) +2; i++) {
-    tree();
+    tree(); //creates a tree
   }
 }
 
@@ -21,17 +22,17 @@ function draw() {
 }
 
 function tree(){
-  var treeSize = Math.floor(Math.random() *20 ) + 10;
-  var treeLocationX = Math.floor(Math.random() * 600) + 50;
-  var treeLocationY = Math.floor(Math.random() * 235) + 5;
-  fill('brown');
-  rect(treeLocationX, treeLocationY, treeSize*5, treeSize*25);
+  var treeSize = Math.floor(Math.random() *20 ) + 10; //determines the size of the tree between 10-39
+  var treeLocationX = Math.floor(Math.random() * 600) + 50; //determines a random x location of the tree between 50-649
+  var treeLocationY = Math.floor(Math.random() * 235) + 5; // determines a random y location of the tree between 5 and 329
+  fill('brown'); //changes tree color to brown
+  rect(treeLocationX, treeLocationY, treeSize*5, treeSize*25); //creates tree trunk according to size and location
 
-  fill('green');
+  fill('green'); //changes tree color to green
 
-  var quantityLeaves = Math.floor(Math.random()*5) +2;
+  var quantityLeaves = Math.floor(Math.random()*5) +2; //determines how many leaves are going to be generated
 
-  for (var i = 0; i < quantityLeaves; i++) {
+  for (var i = 0; i < quantityLeaves; i++) { // generates leaves equal to the total amount of leaves set above
     leaves(treeLocationX + Math.floor(Math.random()*100)+10,treeLocationY + Math.floor(Math.random()*100)+10, treeSize + Math.floor(Math.random()*300)+10)
   }
 }
