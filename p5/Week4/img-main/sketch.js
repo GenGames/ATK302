@@ -20,7 +20,6 @@ function setup() {
   image(img2,250,325,200,200);
   image(img3,250,100);
   image(img1,0,100);
-  sfx.play();
 
 
   fill(0)
@@ -34,4 +33,8 @@ function setup() {
 function draw() {
   // put drawing code here
 
+}
+
+function mouseClicked(){
+  sfx.play();
 }
