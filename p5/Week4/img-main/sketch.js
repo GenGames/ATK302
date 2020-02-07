@@ -1,6 +1,4 @@
-let img1;
-let img2;
-let img3;
+let img1, img2, img3;
 let font;
 let sfx;
 
@@ -16,7 +14,6 @@ function preload(){
 function setup() {
   // put setup code here
   createCanvas(windowWidth,windowHeight);
-
   image(img2,250,325,200,200);
   image(img3,250,100);
   image(img1,0,100);
@@ -36,5 +33,9 @@ function draw() {
 }
 
 function mouseClicked(){
-  sfx.play();
+  if (!sfx.isPlaying()) {
+    sfx.play();
+  } else if(sfx.isPlaying()){
+    sfx.stop();
+  }
 }

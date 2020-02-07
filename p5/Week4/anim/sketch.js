@@ -6,9 +6,7 @@ const brownFurFrontColoring = "#C79166";
 const brownFurBackColoring = "#987755";
 const bag1Coloring = "#77C0B7";
 const bag2Coloring = "#DFBF45";
-const bag3Coloring = "#ED225D";
-var x = 0;
-var y = 0;
+const bag3Coloring = "#ED225D"
 
 function setup() {
   // Sets the screen to be 720 pixels wide and 400 pixels high
@@ -18,27 +16,16 @@ function setup() {
   fill("green");
   var ground = rect(0,130,400,70);
 
+  var aplaca1= Alpaca(0,0,1,"white");
 }
 
 function draw() {
 
+  if (mouseIsPressed) {
     // console.log(mouseX + ", " + mouseY);
-    background("rgb(175,190,250)");
-    noStroke();
-    fill("green");
-    var ground = rect(0,130,400,70);
-
-  x += 1.3;
-  console.log(y);
-
-
-  var aplaca1= Alpaca(0-x,0,1,"white");
-  Alpaca(95-x,20-y,2,"brown");
-  Alpaca(200-x,-25-y,0,"brown");
-  Alpaca(245-x,20-y,1,"white");
-
-  if(x >= 350){
-    x = -400;
+    Alpaca(95,20,2,"brown");
+    Alpaca(200,-25,0,"brown");
+    Alpaca(245,20,1,"white");
   }
 }
 
