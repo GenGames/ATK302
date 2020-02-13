@@ -1,9 +1,6 @@
 var nextState;
-let music;
 
 function preLoad(){
-  soundFormats('mp3', 'ogg');
-  music = loadSound('assets/SFX.mp3');
 }
 
 function setup() {
@@ -36,9 +33,6 @@ function mouseReleased(){
 }
 
 function titleMenu(){
-  if (music.isPlaying()) {
-    music.stop();
-  }
   background(random(255));
   textSize(72);
   text("TITLE",400,200);
@@ -48,7 +42,6 @@ function titleMenu(){
 
 function mainMenu(){
   background(random(255),random(255),random(255));
-  music.play();
   textSize(32);
   text("Click the mouse to continue", 400,200);
   nextState = "Game Loop";
