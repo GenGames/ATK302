@@ -1,5 +1,7 @@
-var gameScenes = ["titleMenu", "mainMenu", "gameplay", "endGame"];
+var gameScenes = ["Title Menu", "Main Menu", "Game Play", "End Game"];
 var currentScene = 0;
+var timer = 0;
+var timing = false;
 
 function setup() {
   // Sets the screen to be 720 pixels wide and 400 pixels high
@@ -13,20 +15,28 @@ function setup() {
 }
 
 function draw() {
-
+  if (timing) {
+    timer();
+  } else if(timer != 0){
+    resetTimer();
+  }
 }
 
 function mousePressed(){
-  // for (var i = 0; i < gameScenes.length; i++) {
-  //
-  // }
-
-  console.log(gameScenes[++currentScene]);
-  changeScene(currentScene);
+  changeScene(++currentScene);
 }
 
 
 // My functions
+function timer(){
+  timer += 1/60;
+  console.log("timer: " +timer);
+}
+
+function resetTimer(){
+  timer = 0;
+}
+
 function changeScene(newScene){
   switch (newScene) {
     case 0:
@@ -34,17 +44,22 @@ function changeScene(newScene){
     text(gameScenes[newScene],80,80);
       break;
     case 1:
-    background("rgb(175,190,250)");
+    background("rgb(100,100,250)");
     text(gameScenes[newScene],80,80);
       break;
     case 2:
-    background("rgb(175,190,250)");
+    background("rgb(10,10,250)");
     text(gameScenes[newScene],80,80);
+    timing = true;
+    if (timer >= 2) {
+      mousePressed();
+    }
       break;
     case 3:
-    background("rgb(175,190,250)");
+    background("rgb(200,230,250)");
     text(gameScenes[newScene],80,80);
     currentScene = 0;
+    timing = false;
         break;
 
     default:
