@@ -16,11 +16,11 @@ function draw() {
       break;
     case 1:
       console.log("お前は死んでる");
-      text("Joke Premise", 100,100);
+      text("お前は死んでる", 100,100);
       break;
     case 2:
       console.log("何！？！？！？！");
-      text("Joke Punch", 100,100);
+      text("何！？！？！？！", 100,100);
       break;
   }
 }
