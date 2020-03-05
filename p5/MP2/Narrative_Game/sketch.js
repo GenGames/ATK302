@@ -60,7 +60,16 @@ function setup() {
   changeNarrativeString("1");
 }// Manages canvas creation and basic item creation;
 
+var scalefactor = .1;
 function draw() {
+  if (currentScene == 0) {
+    console.log('animating');
+    rectMode(CENTER);
+    translate(width / 2, height / 2);
+    translate(p5.Vector.fromAngle(millis() / 1000, 40 * scalefactor));
+    rect(0, 0, 20, 20);
+    scalefactor += .001;
+  }
 }//is here for the funnsies
 
 function mousePressed(){
