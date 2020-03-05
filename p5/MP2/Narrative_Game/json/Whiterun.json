@@ -1,0 +1,184 @@
+{
+  "1":[
+    "line1",
+    "Here I am, late to work, I hope Irileth doesn't kill me...",
+    "Irileth: You must be joking, in over 3 hours past your post time."
+  ],
+  "1Button1":[
+    "Sorry Ma'am.",
+    "'2'"
+  ],
+  "1Button2":[
+    "Cap' you wouldn't get it, you ain't a Nord",
+    "'3'"
+  ],
+
+  "2":[
+    "line1",
+    "Irileth: Immediately, off to cleaning duty.",
+    "Shit. I've done myself in now... Most interesting thing I will do all day is hunt skeevers now. Wish I could be one of the guards in the bandit raid..."
+  ],
+  "2Button1":[
+    "Shove Off chore duty. I am going to go find the Dovakin instead",
+    "'4'"
+  ],
+  "2Button2":[
+    "Guess it is off to grab the mop.",
+    "'5'"
+  ],
+
+  "3":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "3Button1":[
+    "choice1",
+    "'6'"
+  ],
+  "3Button2":[
+    "choice2",
+    "'7'"
+  ],
+
+  "4":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "4Button1":[
+    "choice1",
+    "'8'"
+  ],
+  "4Button2":[
+    "choice2",
+    "'9'"
+  ],
+
+  "5":[
+    "line1",
+    "*Walking to the cleaning closet in the basement* Wait is that the Dovakin?",
+    "*You see the Dovakin, going through the cabinets of the local chef, and he takes out a piece of bread. Adding it to his pocket...*"
+  ],
+  "5Button1":[
+    "Wait... That's illegal... I need to get him!",
+    "'10'"
+  ],
+  "5Button2":[
+    "Dovakin or not, the law is the law. You are Under Arrest!!!",
+    "'10'"
+  ],
+
+  "6":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "6Button1":[
+    "choice1",
+    "'11'"
+  ],
+  "6Button2":[
+    "choice2",
+    "'11'"
+  ],
+
+  "7":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "7Button1":[
+    "choice1",
+    "'12'"
+  ],
+  "7Button2":[
+    "choice2",
+    "'13'"
+  ],
+
+  "8":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "8Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "8Button2":[
+    "choice2",
+    "endGame"
+  ],
+
+  "9":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "9Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "9Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "10":[
+    "line1",
+    "Dovakin: Listen, dude, it was just a piece of bread, let it go.",
+    "*This bastard thinks he can do whatever he wants and gets away with it?! Not on my watch*"
+  ],
+  "10Button1":[
+    "You're coming with me criminal scum!",
+    "nextBranch"
+  ],
+  "10Button2":[
+    "It's off to dragonsreach dungeon with you!",
+    "nextBranch"
+  ],
+
+  "11":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "11Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "11Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "12":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "12Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "12Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "13":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "13Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "13Button2":[
+    "choice2",
+    "endGame"
+  ]
+
+}

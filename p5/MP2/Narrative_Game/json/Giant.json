@@ -1,0 +1,184 @@
+{
+  "1":[
+    "line1",
+    "From behind the boulder the, the Dovakin remerges, 'Stop! You have violated the law!'",
+    "However, just a few seconds after, you see a giant appear chasing after the dragonborn."
+  ],
+  "1Button1":[
+    "oh god, what have I gotten myself into?",
+    "'2'"
+  ],
+  "1Button2":[
+    "Dovankin, you are under arrest! *charge*",
+    "'3'"
+  ],
+
+  "2":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "2Button1":[
+    "choice1",
+    "'4'"
+  ],
+  "2Button2":[
+    "choice2",
+    "'5'"
+  ],
+
+  "3":[
+    "line1",
+    "With a single shout though, the Dovankin manages to knock the giant over and pounces on it with his greatsword.",
+    "This is your chance! you can get him while he is distracted!"
+  ],
+  "3Button1":[
+    "get him with arrows",
+    "'6'"
+  ],
+  "3Button2":[
+    "knock him in the back of the head with your axe",
+    "'7'"
+  ],
+
+  "4":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "4Button1":[
+    "choice1",
+    "'8'"
+  ],
+  "4Button2":[
+    "choice2",
+    "'9'"
+  ],
+
+  "5":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "5Button1":[
+    "choice1",
+    "'10'"
+  ],
+  "5Button2":[
+    "choice2",
+    "'10'"
+  ],
+
+  "6":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "6Button1":[
+    "choice1",
+    "'11'"
+  ],
+  "6Button2":[
+    "choice2",
+    "'11'"
+  ],
+
+  "7":[
+    "line1",
+    "you sneak behind the Dovankin as he is finishing off the Giant.",
+    "Puling out your axe, you get ready to strike!"
+  ],
+  "7Button1":[
+    "Silently hit him and take him to the dungeon.",
+    "'12'"
+  ],
+  "7Button2":[
+    "say 'Wait, I know you...' first",
+    "'13'"
+  ],
+
+  "8":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "8Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "8Button2":[
+    "choice2",
+    "endGame"
+  ],
+
+  "9":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "9Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "9Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "10":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "10Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "10Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "11":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "11Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "11Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "12":[
+    "line1",
+    "After whacking him, you manage to take him out! You have done it, you have captured the criminal!!!",
+    "Dragging his body back to dragonsreach, you know you've done the right thing, you return the bread to the chef, and all is right in the world."
+  ],
+  "12Button1":[
+    "All in a days work",
+    "nextBranch"
+  ],
+  "12Button2":[
+    "I will become the greatest guard their every was",
+    "nextBranch"
+  ],
+
+  "13":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "13Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "13Button2":[
+    "choice2",
+    "endGame"
+  ]
+
+}

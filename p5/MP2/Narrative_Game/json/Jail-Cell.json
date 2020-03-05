@@ -1,0 +1,184 @@
+{
+  "1":[
+    "line1",
+    "*5 hours later, guarding the cell of the Dovankin*",
+    "'I hope you learned your lesson dragonborn, you will need to spend your life atoning for your crimes.'"
+  ],
+  "1Button1":[
+    "'Only then, will we be able to let you go.'",
+    "'2'"
+  ],
+  "1Button2":[
+    "'You'll stay in here till you rot!'",
+    "'3'"
+  ],
+
+  "2":[
+    "line1",
+    "Dovakin: What if you just let me out now though?",
+    "'what? Like, right now?'"
+  ],
+  "2Button1":[
+    "Seems like it could be a safe bet. He is the Dovakin after all",
+    "'4'"
+  ],
+  "2Button2":[
+    "not a chance, this criminal is staying put.",
+    "'5'"
+  ],
+
+  "3":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "3Button1":[
+    "choice1",
+    "'6'"
+  ],
+  "3Button2":[
+    "choice2",
+    "'7'"
+  ],
+
+  "4":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "4Button1":[
+    "choice1",
+    "'8'"
+  ],
+  "4Button2":[
+    "choice2",
+    "'9'"
+  ],
+
+  "5":[
+    "line1",
+    "'Not a chance, you are going to stay in there for a long time...'",
+    "*After another hour of guarding, you notice the cell is mysteriously empty...*"
+  ],
+  "5Button1":[
+    "He escaped! I must go after him!",
+    "'10'"
+  ],
+  "5Button2":[
+    "He got away again! That sleazy Dovakin.",
+    "'10'"
+  ],
+
+  "6":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "6Button1":[
+    "choice1",
+    "'11'"
+  ],
+  "6Button2":[
+    "choice2",
+    "'11'"
+  ],
+
+  "7":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "7Button1":[
+    "choice1",
+    "'12'"
+  ],
+  "7Button2":[
+    "choice2",
+    "'13'"
+  ],
+
+  "8":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "8Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "8Button2":[
+    "choice2",
+    "endGame"
+  ],
+
+  "9":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "9Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "9Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "10":[
+    "line1",
+    "And so the Dovakin escaped, and our guard friend continued to pursue him.",
+    "Never before had the player experienced such obnoxious tenacity... never have they hated a guard so much as this one..."
+  ],
+  "10Button1":[
+    "Turn off the Xbox",
+    "nextBranch"
+  ],
+  "10Button2":[
+    "End the game",
+    "endGame"
+  ],
+
+  "11":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "11Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "11Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "12":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "12Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "12Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "13":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "13Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "13Button2":[
+    "choice2",
+    "endGame"
+  ]
+
+}

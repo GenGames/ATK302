@@ -1,0 +1,184 @@
+{
+  "1":[
+    "You wake up to the sound of morning bardic music playing and the screams of an angry customer eating porridge",
+    "Ughhhhh, I have to get up don't I?",
+    "But, starying in bed sounds so much better"
+  ],
+  "1Button1":[
+    "Stay in Bed",
+    "'2'"
+  ],
+  "1Button2":[
+    "Get Up For the Day",
+    "'3'"
+  ],
+
+  "2":[
+    "line1",
+    "Well, the bed is the best part of the day anyways. Nothing like starting off with a little procrastination *yawns*... 2 HOURS LATER",
+    "Maybe time to get started for the day now?"
+  ],
+  "2Button1":[
+    "No. Bed. Now.",
+    "'4'"
+  ],
+  "2Button2":[
+    "Fine... Time to get up",
+    "'5'"
+  ],
+
+  "3":[
+    "line1",
+    "Well, early bird and all, right?",
+    "I've got some time before my post starts, wonder what I should do?"
+  ],
+  "3Button1":[
+    "Go to the Market",
+    "'6'"
+  ],
+  "3Button2":[
+    "See if the Dovakin's in town",
+    "'7'"
+  ],
+
+  "4":[
+    "line1",
+    "Perfect, now I feel well rested and ready to start the day...",
+    "I wonder what is in store for me today?"
+  ],
+  "4Button1":[
+    "More Bedtime. Go.",
+    "'8'"
+  ],
+  "4Button2":[
+    "Who Know's What's in store?",
+    "'9'"
+  ],
+
+  "5":[
+    "line1",
+    "Alright, with a bit of extra sleep, I can get going.",
+    "Maybe I should hit the market before work? I will already be a bit late to my guard post..."
+  ],
+  "5Button1":[
+    "go to the market",
+    "'10'"
+  ],
+  "5Button2":[
+    "go straight to work",
+    "'10'"
+  ],
+
+  "6":[
+    "line1",
+    "Ah, I love the market in the morning, the fresh smell of bread, the crisp breeze, I could relax here all day...",
+    "*Falls asleep and wakes to an angry Captain Cassius: * Commander Casius: You Fool! You are late to your post, report to Irileth immediately!"
+  ],
+  "6Button1":[
+    "Well crap. Guess I gotta go",
+    "'11'"
+  ],
+  "6Button2":[
+    "Yes Sir!!!",
+    "'11'"
+  ],
+
+  "7":[
+    "line1",
+    "By some miracle, it seems you found the Dovankin!!! He is shouting around the town!",
+    "His th'uum is certainly powerful, but maybe he shouldn't be doing that here?"
+  ],
+  "7Button1":[
+    "Wait to make sure he doesn't make too much of a seen",
+    "'12'"
+  ],
+  "7Button2":[
+    "Tell him he needs to stop that shouting",
+    "'13'"
+  ],
+
+  "8":[
+    "line1",
+    "Well.. I am probably gonna get fired for sleeping through work again, huh?",
+    "No worries, life can worry for another time. *Sleep*"
+  ],
+  "8Button1":[
+    "Nap Time Forever?",
+    "endGame"
+  ],
+  "8Button2":[
+    "Nap Time Forever.",
+    "endGame"
+  ],
+
+  "9":[
+    "line1",
+    "Well. Rested and ready to go, lets get dressed and report to the captain...",
+    "I hope he is not mad that I am so late"
+  ],
+  "9Button1":[
+    "Go as Fast as You Can",
+    "nextBranch"
+  ],
+  "9Button2":[
+    "Meander to Work",
+    "nextBranch"
+  ],
+
+  "10":[
+    "line1",
+    "*Steps outside to see an angry guard captain waiting at your door* Oh. Commander Caius, uh... Top of the mornin'",
+    "Commander Casius: You Fool! You are late to your post, report to Irileth immediately!"
+  ],
+  "10Button1":[
+    "Well crap. Guess I gotta go",
+    "nextBranch"
+  ],
+  "10Button2":[
+    "Yes Sir!!!",
+    "nextBranch"
+  ],
+
+  "11":[
+    "line1",
+    "Running up the steps as fast as possible, you make it to dragonsreach... This isn't going to be fun",
+    "You heard Irileth has killed 80 men just by staring at them, though she wouldn't add you to that list for getting distracted, right???"
+  ],
+  "11Button1":[
+    "Enter dragonsreach",
+    "nextBranch"
+  ],
+  "11Button2":[
+    "Enter it anyways...",
+    "nextBranch"
+  ],
+
+  "12":[
+    "line1",
+    "After awhile, the Dovakin stops shouting and with only a few people knocked over. It seems it could have been worse",
+    "But, looks like it took too long to watch.  You may be late to your post!!!"
+  ],
+  "12Button1":[
+    "Run as fast as possible!",
+    "nextBranch"
+  ],
+  "12Button2":[
+    "Walk to work, you were technically guarding anyways",
+    "nextBranch"
+  ],
+
+  "13":[
+    "line1",
+    "Hey! Stop that... Shouting. It's making people unease.",
+    "Dovakin: FUS-RO-DAH. *And that day you sadly met your end*"
+  ],
+  "13Button1":[
+    "be dead",
+    "endGame"
+  ],
+  "13Button2":[
+    "be very dead",
+    "endGame"
+  ]
+
+}

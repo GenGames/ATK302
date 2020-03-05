@@ -1,0 +1,184 @@
+{
+  "1":[
+    "line1",
+    "Before you have time to hancuff the criminal Dovakin, he slips past you and runs up the stairs",
+    "'Someone get him!' *You chase after him* Shortly after he leaves the city gates, he runs to a bandit camp."
+  ],
+  "1Button1":[
+    "Is the Dovakin conspiring with common thugs??",
+    "'2'"
+  ],
+  "1Button2":[
+    "He won't lose me that way!",
+    "'3'"
+  ],
+
+  "2":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "2Button1":[
+    "choice1",
+    "'4'"
+  ],
+  "2Button2":[
+    "choice2",
+    "'5'"
+  ],
+
+  "3":[
+    "line1",
+    "You rush into the camp after the Dovakin, nothing will stop you find justice for the now breadless dragonsreach chef",
+    "In your wake is a line of corpses, with only the Dovakin and the bandit leader dueling on the side."
+  ],
+  "3Button1":[
+    "He May be a Bandit, but at least he's not a criminal!",
+    "'6'"
+  ],
+  "3Button2":[
+    "The Dovankin may have stolen, but the bandit is the real bad guy",
+    "'7'"
+  ],
+
+  "4":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "4Button1":[
+    "choice1",
+    "'8'"
+  ],
+  "4Button2":[
+    "choice2",
+    "'9'"
+  ],
+
+  "5":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "5Button1":[
+    "choice1",
+    "'10'"
+  ],
+  "5Button2":[
+    "choice2",
+    "'10'"
+  ],
+
+  "6":[
+    "line1",
+    "fighting alongside the bandit leader, you manage to wound the Dovankin, however, it seems the bandit leader too has fallen. 'Good Dovakin, finally, you the name of the Jarl, you are under arrest'",
+    "*the Dovakin runs away again* Wait no!!!! Come back here and face justice!"
+  ],
+  "6Button1":[
+    "Guess we are off again",
+    "'11'"
+  ],
+  "6Button2":[
+    "There is noone worth less than criminal scum, get him!",
+    "'11'"
+  ],
+
+  "7":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "7Button1":[
+    "choice1",
+    "'12'"
+  ],
+  "7Button2":[
+    "choice2",
+    "'13'"
+  ],
+
+  "8":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "8Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "8Button2":[
+    "choice2",
+    "endGame"
+  ],
+
+  "9":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "9Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "9Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "10":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "10Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "10Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "11":[
+    "line1",
+    "chasing after the Dovakin, you find yourself approaching a strange set of rock formations. You can't seem to find the dragonborn anywhere though...",
+    "Hmmmmm, where are you?"
+  ],
+  "11Button1":[
+    "Keep looking, he needs to be around here somewhere",
+    "nextBranch"
+  ],
+  "11Button2":[
+    "The Jet will make you Jittery- I mean, Maybe it was just my mind playing tricks on me",
+    "nextBranch"
+  ],
+
+  "12":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "12Button1":[
+    "choice1",
+    "nextBranch"
+  ],
+  "12Button2":[
+    "choice2",
+    "nextBranch"
+  ],
+
+  "13":[
+    "line1",
+    "line2",
+    "line3"
+  ],
+  "13Button1":[
+    "choice1",
+    "endGame"
+  ],
+  "13Button2":[
+    "choice2",
+    "endGame"
+  ]
+
+}
