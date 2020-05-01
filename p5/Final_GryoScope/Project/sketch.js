@@ -31,8 +31,8 @@ function draw() {
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
   // map(yourVar, range1_x, range1_y, range2_x, range2_y) ;
-  xPosition = map(gamma, -60, 60, 0, width);
-  yPosition = map(beta, -30, 30, 0, height);
+  xPosition = map(gamma, -40, 40, 0, width);
+  yPosition = map(beta, -20, 20, 0, height);
 
   push(); // before you use translate, rotate, or scale commands, push and then pop after
 
@@ -41,13 +41,12 @@ function draw() {
   rotate(radians(alpha)); // using alpha in here so it doesn't feel bad
 
   image(mainImage, 0, 0, 500, 500);
-  //  	rect(0, 0, 100, 100) ;
   pop();
 
 
   // DECORATIONS
   // Just a bunch of text commands to display data coming in from addEventListeners
-  textAlign(LEFT);
+  // textAlign(LEFT);
   // textSize(20);
   // fill('black');
   // text("orientation data:", 25, 25);
@@ -63,11 +62,11 @@ function draw() {
   // text("z = " + z.toFixed(4), 25, 190);
 
   // MORE DECORATIONS - write that pretty ATK type on top.
-  fill('white');
+  fill('#ffffff10');
   noStroke();
-  textSize(300);
+  textSize(200);
   textAlign(CENTER);
-  text("CTK302", width / 2, height / 2);
+  text("-----The Mason Watermark-----", width / 2, height / 2);
 
 }
 
