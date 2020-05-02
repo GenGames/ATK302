@@ -23,7 +23,7 @@ function preload(){
 function setup() {
   // put setup code here
   createCanvas(800,800);
-  loadJSON('http://api.openweathermap.org/data/2.5/weather?zip=61701,us&units=imperial&appid=ecb96c6f2772adc0320aaa567d9006dc',onDataLoaded)
+  loadJSON('https://api.openweathermap.org/data/2.5/weather?zip=61701,us&units=imperial&appid=ecb96c6f2772adc0320aaa567d9006dc',onDataLoaded)
   currentDirection = createVector(1.5,1.5,0);
 }
 
